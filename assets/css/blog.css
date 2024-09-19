@@ -1,0 +1,37 @@
+section p  {
+    font-size: 16px;
+    color: aquamarine;
+}
+
+section > p {
+    color: blue;
+}
+
+section > p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+section button:hover{
+    background-color: blue;
+}
+
+section:nth-of-type(2n){
+    background-color: brown;
+}
+
+a + button {
+    background-color: bisque;
+}
+
+input[type="text"] {
+    color: red;
+}
+
+section h3::after{
+    content: '*';
+}
+
+section p::first-line{
+    color: red;
+}
