@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+   
+
+}
+
+main .sidebar{
+    background-color: blue;
+    flex-grow: 1;
+
+}
+
+main .content{
+    background-color: aqua;
+    flex-grow: 1;
+    
+}
